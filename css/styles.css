@@ -34,9 +34,9 @@ p {
   padding: 0;
 }
 .img {
-  /* display: block;
+  display: block;
   max-width: 100%;
-  height: auto; */
+  height: auto;
 }
 /* reset end */
 .container {
@@ -230,6 +230,7 @@ p {
 .projects-list {
 }
 .projects {
+  --items: 3;
 }
 .description-items {
   padding: 20px 24px;
@@ -334,10 +335,10 @@ p {
 /* =======================footer==================== */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-container {
-  padding-top: 55px;
-  padding-bottom: 55px;
 }
 .logotype-footer {
   font-family: "Raleway", sans-serif;
